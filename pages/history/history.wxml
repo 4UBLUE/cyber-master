@@ -5,10 +5,10 @@
   </view>
   <view class="history-list">
     <block wx:for="{{displayedRecords}}" wx:key="id">
-      <view class="history-item" bindtap="viewDetail" data-id="{{item.id}}">
-        <text class="history-date">{{item.date}}</text>
-        <text class="history-summary">{{item.summary}}</text>
-        <button bindtap="handleDelete" data-id="{{item.id}}" catchtap="true">删除</button>
+      <view class="history-item" data-id="{{item.id}}">
+        <text class="history-date"  bindtap="viewDetail">{{item.date}}</text>
+        <text class="history-summary"  bindtap="viewDetail">{{item.summary}}</text>
+        <button bindtap="handleDelete" data-id="{{item.id}}" >删除</button>
       </view>
     </block>
   </view>
