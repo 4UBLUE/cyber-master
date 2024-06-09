@@ -1,0 +1,40 @@
+<!-- pages/index/index.wxml -->
+<view class="container">
+  <view class="list">
+    <view class="list-item" bindtap="navigateToDetail1">
+      <image class="item-image" src="/images/OIP.jpg" mode="aspectFit"></image>
+      <text class="item-text">《文言传》</text>
+      <text class="right">></text>
+    </view>
+    <view class="list-item" bindtap="navigateToDetail2">
+      <image class="item-image" src="/images/OIP.jpg" mode="aspectFit"></image>
+      <text class="item-text">《彖》上下</text>
+      <text class="right">></text>
+    </view>
+    <view class="list-item" bindtap="navigateToDetail3">
+      <image class="item-image" src="/images/OIP.jpg" mode="aspectFit"></image>
+      <text class="item-text">《象》上下</text>
+      <text class="right">></text>
+    </view>
+    <view class="list-item" bindtap="navigateToDetail4">
+      <image class="item-image" src="/images/OIP.jpg" mode="aspectFit"></image>
+      <text class="item-text">《系辞》上下</text>
+      <text class="right">></text>
+    </view>
+    <view class="list-item" bindtap="navigateToDetail5">
+      <image class="item-image" src="/images/OIP.jpg" mode="aspectFit"></image>
+      <text class="item-text">《说卦》</text>
+      <text class="right">></text>
+    </view>
+    <view class="list-item" bindtap="navigateToDetail6">
+      <image class="item-image" src="/images/OIP.jpg" mode="aspectFit"></image>
+      <text class="item-text">《序卦》</text>
+      <text class="right">></text>
+    </view>
+    <view class="list-item" bindtap="navigateToDetail7">
+      <image class="item-image" src="/images/OIP.jpg" mode="aspectFit"></image>
+      <text class="item-text">《杂卦》</text>
+      <text class="right">></text>
+    </view>
+  </view>
+</view>

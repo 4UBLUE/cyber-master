@@ -1,0 +1,62 @@
+.container {
+    padding: 20px;
+    position: relative;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eaeaea;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* 确保 header 显示在最上层 */
+  }
+  
+  .back-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    z-index: 1000; /* 确保 title 在 header 内显示 */
+  }
+  
+  .history-list {
+    margin-top: 35px; /* 确保内容不会被标题栏覆盖 */
+  }
+  
+  .history-item {
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1; /* 确保内容在 header 之下 */
+  }
+  
+  .history-date {
+    font-size: 16px;
+    color: #999;
+  }
+  
+  .history-summary {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,129 @@
+.container{
+    background-color: #ffefb3;
+    height : 100vh;
+}
+.partOne {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffefb3;
+    padding-top: 130rpx;
+    padding-bottom: 130rpx;
+}
+.userinfo {
+    display: flex;
+    align-items: center;
+    height: 128rpx;
+    margin-left: 40rpx;
+    color: rgb(0, 0, 0);
+}
+  
+.userinfo-avatar {
+    overflow: hidden;
+    width: 128rpx;
+    height: 128rpx;
+    margin: 30rpx;
+    border-radius: 50%;
+}
+.userinfo-nickname {
+    height: 128rpx;
+}
+.partOne .scanicon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 128rpx;
+    margin-right: 80rpx;
+}
+.partOne .scanicon image{
+    width: 80rpx;
+    height: 80rpx;
+}
+
+.partTwo{
+    height: 100rpx;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -50rpx;
+    background-color: #ffffff;
+    border: 1rpx solid rgb(176, 176, 176);
+    border-radius: 25rpx;
+}
+.partTwo .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100rpx;
+}
+.partTwo .item .itemname{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210rpx;
+    margin-left: 20rpx;
+}
+.partTwo .item .itemname image{
+    width: 60rpx;
+    height: 60rpx;
+}
+.partTwo .right{
+    margin-right: 20rpx;
+}
+.partTwo .right image{
+    width: 50rpx;
+    height: 50rpx;
+}
+
+
+
+.partThree{
+    height: 300rpx;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10rpx;
+    background-color: #ffffff;
+    border: 1rpx solid rgb(176, 176, 176);
+    border-radius: 25rpx;
+}
+
+.partThree .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100rpx;
+}
+.partThree .item .itemname{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210rpx;
+    margin-left: 20rpx;
+}
+.partThree .item .itemname image{
+    width: 60rpx;
+    height: 60rpx;
+}
+.partThree .right{
+    margin-right: 20rpx;
+}
+.partThree .right image{
+    width: 50rpx;
+    height: 50rpx;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* 设置标题栏的高度 */
+    background-color: #F2CA33;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .back-icon {
+    width: 24px;
+    height: 24px;
+  }

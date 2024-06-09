@@ -1,0 +1,45 @@
+/* pages/index/index.wxss */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 5vh; /* 使列表位于屏幕上半部分 */
+    box-sizing: border-box;
+  }
+  
+  .list {
+    width: 100%;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+  }
+  
+  .list-item:last-child {
+    border-bottom: none;
+  }
+  
+  .item-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  
+  .item-text {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .right {
+    width: 90px;
+    height: 20px;
+  }
+  

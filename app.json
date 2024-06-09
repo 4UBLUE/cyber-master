@@ -2,7 +2,21 @@
   "pages": [
     "pages/index/index",
     "pages/cate/cate",
-    "pages/logs/index"
+    "pages/logs/index",
+    "pages/read/read",
+    "pages/my/my",
+    "pages/history/history",
+    "pages/historyDetail/historyDetail",
+    "pages/about/about",
+    "pages/help/help",
+    "pages/bindInfo/bindInfo",
+    "pages/shiyi/wenyan/wenyan",
+    "pages/shiyi/xiang/xiang",
+    "pages/shiyi/tuan/tuan",
+    "pages/shiyi/xici/xici",
+    "pages/shiyi/shuogua/shuogua",
+    "pages/shiyi/xugua/xugua",
+    "pages/shiyi/zagua/zagua"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -12,11 +26,23 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "images/OIP.jpg"
       },
       {
         "pagePath": "pages/logs/index",
-        "text": "日志"
+        "text": "日志",
+        "iconPath": "images/OIP.jpg"
+      },
+      {
+        "pagePath": "pages/read/read",
+        "text": "阅读十易",
+        "iconPath": "images/OIP.jpg"
+      },
+      {
+          "pagePath": "pages/my/my",
+          "text": "个人中心",
+          "iconPath": "images/OIP.jpg"
       }
     ]
   },

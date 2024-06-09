@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="header">
+    <image class="back-icon" src="/images/right-arrow.png" bindtap="navigateBack"></image>
+    <text class="title">绑定信息</text>
+  </view>
+  <view class="content">
+    <button open-type="getUserInfo" bindgetuserinfo="bindUserInfo">绑定微信信息</button>
+    <view wx:if="{{userInfo}}">
+      <text>昵称：{{userInfo.nickName}}</text>
+      <text>头像：</text>
+      <image src="{{userInfo.avatarUrl}}" style="width:100px;height:100px;"></image>
+    </view>
+  </view>
+</view>

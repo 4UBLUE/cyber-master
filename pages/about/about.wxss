@@ -1,0 +1,37 @@
+.container {
+    padding: 20px;
+    position: relative;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eaeaea;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .back-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .content {
+    margin-top: 80px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  

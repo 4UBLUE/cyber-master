@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="header">
+    <image class="back-icon" src="/images/right-arrow.png" bindtap="navigateBack"></image>
+    <text class="title">关于我们</text>
+  </view>
+  <view class="content">
+    <text>欢迎使用我们的微信算命小程序！我们致力于为用户提供精准、有趣的命理服务。无论您对未来感到好奇，还是希望了解自己的个性特点，我们都希望能够帮助到您。
+
+我们的小程序团队由一群热爱命理学、技术与用户体验的专业人士组成。通过结合传统命理学和现代科技，我们努力为用户打造一个便捷、准确的命理咨询平台。</text>
+  </view>
+</view>

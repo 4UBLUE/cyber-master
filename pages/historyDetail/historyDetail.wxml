@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="header">
+    <image class="back-icon" src="/images/right-arrow.png" bindtap="navigateBack"></image>
+    <text class="title">历史记录详情</text>
+  </view>
+  <view class="content">
+    <text class="history-date">{{historyRecord.date}}</text>
+    <text class="history-content">{{historyRecord.content}}</text>
+  </view>
+</view>

@@ -1,0 +1,43 @@
+.container {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eaeaea;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .back-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .content {
+    margin-top: 80px; /* 确保内容不会被标题栏覆盖 */
+  }
+  
+  .history-date {
+    font-size: 16px;
+    color: #999;
+  }
+  
+  .history-content {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
